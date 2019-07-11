@@ -51,7 +51,6 @@ class PostListViewModel(private val postDao: PostDao): BaseViewModel() {
             )
     }
 
-
     private fun onRetrievePostListStart(){
         loadingVisibility.value = View.VISIBLE
         errorMessage.value = null

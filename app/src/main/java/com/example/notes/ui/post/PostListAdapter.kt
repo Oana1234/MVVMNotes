@@ -30,6 +30,7 @@ class PostListAdapter : RecyclerView.Adapter<PostListAdapter.ViewHolder>() {
         notifyDataSetChanged()
     }
 
+
     class ViewHolder(private val binding: ItemDataBinding):RecyclerView.ViewHolder(binding.root){
         private val viewModel = PostViewModel()
 

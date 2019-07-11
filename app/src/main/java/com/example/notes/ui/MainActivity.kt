@@ -11,6 +11,7 @@ import android.support.v7.widget.LinearLayoutManager
 import com.example.notes.R
 import com.example.notes.di.ViewModelFactory
 import com.example.notes.ui.post.PostListViewModel
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 

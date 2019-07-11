@@ -14,7 +14,6 @@ abstract class BaseViewModel : ViewModel() {
         .build()
 
     init {
-
         inject()
     }
 

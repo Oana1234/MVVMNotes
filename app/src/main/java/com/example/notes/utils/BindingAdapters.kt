@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.TextView
 import com.example.notes.utils.extension.getParentActivity
 
+
 @BindingAdapter("adapter")
 fun setAdapter( view : RecyclerView, adapter : RecyclerView.Adapter<*>){
     view.adapter = adapter
